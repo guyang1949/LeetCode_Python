@@ -37,8 +37,6 @@ def longestCommonPrefix_vertical_scan(strs: list) -> str:
                 return strs[0][:i]
     return strs[0]
 
-
-
 if __name__ == '__main__':
     temp = str(input())
     strs = [str(s) for s in temp.split()]
